@@ -35,5 +35,8 @@ for st := range structs {
   }, st)
 }
 
-results, err := cr.Wait() // The resulting error will be nill if none of the functions returned an error and of type MultiError if any of them did. Results is just a list of results from each function
+results, err := cr.Wait()
+// The resulting error will be nill if none of the functions returned an error 
+// and of type MultiError if any of them did. 
+// Results is just a list of results from each function
 ```
